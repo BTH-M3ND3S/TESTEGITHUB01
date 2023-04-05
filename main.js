@@ -17,8 +17,9 @@ function exibenome()
 }
 function botaosoma()
 {
-    let usuário = document.getElementById( "num1" ).value; document.getElementById( "num2" ).value;
-    document.getElementById( "resultado" ).innerHTML = " = " + usuário;
+    let caixa1 = document.getElementById( "num1" ).value; 
+    let caixa2 = document.getElementById( "num2" ).value;
+    document.getElementById( "resultado" ).innerHTML = " = " + caixa1 + caixa2;
     document.getElementById( "num1" ).value = "";
     document.getElementById( "num2" ).value = "";
     
