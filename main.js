@@ -52,7 +52,7 @@ function botaosubtrair()
 {
     let caixa10 = document.getElementById( "num7" ).value; 
     let caixa11 = document.getElementById( "num8" ).value;
-    let caixa12 = parseFloat(caixa10) / parseFloat(caixa11);
+    let caixa12 = parseFloat(caixa10) - parseFloat(caixa11);
     document.getElementById( "resultado3" ).innerHTML = " = " + caixa12;
     document.getElementById( "num7" ).value = "";
     document.getElementById( "num8" ).value = "";
