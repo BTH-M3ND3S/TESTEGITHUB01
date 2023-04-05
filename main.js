@@ -19,7 +19,7 @@ function botaosoma()
 {
     let caixa1 = document.getElementById( "num1" ).value; 
     let caixa2 = document.getElementById( "num2" ).value;
-    document.getElementById( "resultado" ).innerHTML = " = " + caixa1 + caixa2;
+    document.getElementById( "resultado" ).innerHTML = " = " + parseFloat(caixa1) + parsetFloat(caixa2);
     document.getElementById( "num1" ).value = "";
     document.getElementById( "num2" ).value = "";
     
