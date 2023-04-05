@@ -9,8 +9,8 @@ function showcolor()
 
 function exibenome()
 {
-    let usuário = document.getElementById( "name" ).value;
-    document.getElementById( "mensagem" ).innerText = "Meu nome é " = usuário;
+    let usuário = document.getElementById( "nome" ).value;
+    document.getElementById( "mensagem" ).innerHTML = "Meu nome é " = usuário;
     document.getElementById( "nome" ).value = "";
 
 }
